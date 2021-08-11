@@ -1,0 +1,196 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+    overflow-x: hidden;
+}
+
+/*-------------------header---------------*/
+img{
+    width: 50px;
+    padding-left: 28px;
+    padding-right: 1050px;
+}
+.header a{
+    text-decoration: none;
+    color: ivory;
+}
+
+.header a:hover{
+    color: lightcoral ;
+}
+.header{
+    background-color:royalblue;
+    position: fixed;
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+    
+}
+#menu a:active {
+    color:maroon;
+}
+#menu li{
+    list-style: none;
+    display: inline;
+    padding-right: 25px;
+    font-size: 20px;
+}
+.header a,ul{
+    display: inline-block;
+}
+
+/* ----------------donation--------------- */
+ .donate{
+    text-align: center; 
+    color:white;
+    font-size: xxx-large;
+    font-weight:bolder;
+    word-spacing: 2px;
+    font-family:'Times New Roman', Times, serif;
+}
+.dimag{
+    background-image: url("D:/html files/task 1/images/smile1.jpg");    
+    padding: 250px;
+    background-size: 100% 100%;
+    background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.dimag button{   
+    
+    font-weight: bold;
+    font-size: 1vw;
+    
+}
+
+/*--------------------about--------------------*/
+.laugh{
+    padding: 50px 30px 50px 50px;
+    width: 400px;
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.clearfix p{
+    padding:50px 50px 50px 0px;
+    font-size: large;
+    background-color:deepskyblue;
+    margin: 50px 20px 50px 20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 15px aqua;
+}
+
+
+
+/*----------------------------need-----------------------------*/
+
+.column{
+     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.needy{
+    
+    background-color: deepskyblue;  
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    width: 250px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px 10px 15px aqua;
+    transform:translate3d(2px,5px,2px);
+    margin-bottom: 30px;
+}
+.needy:hover{
+    transform: translate3d(-2px,-5px,-2px);
+}
+.needy span{
+    font-weight: bold;
+    color: black;    
+}
+.high{
+    background-color: chocolate;
+}
+.needy img{
+    width: 200px;
+    padding-top: 15px;
+    
+}
+.needy p{
+    width: 200px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.container{    
+    padding:5px;
+    float: right;
+}
+.media{
+    text-align: center;
+    color: lavender;
+}
+
+/*---------------------------------Contact--------------------------*/
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color:royalblue;
+    color: lavender;
+}
+.fa:hover{
+    width: 30px;
+}
+.fa{
+    text-decoration: none;
+    padding: 20px;
+  font-size: 50px;
+   text-align: center;
+    border-radius: 100%;
+    transition: width 2s;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background:deeppink;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }  
